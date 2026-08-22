@@ -1,40 +1,40 @@
 {
-	"name": "google-workspace-tui",
-	"version": "0.1.0",
-	"description": "Google Chat TUI client built with TypeScript and Ink",
-	"main": "dist/index.js",
-	"type": "module",
-	"scripts": {
-		"dev": "bun run src/index.tsx",
-		"build": "bun build src/index.tsx --target=node --outfile=dist/index.js --packages=external",
-		"start": "bun run dist/index.js",
-		"test": "bun test",
-		"lint": "biome lint .",
-		"format": "biome format --write .",
-		"check": "biome check --write .",
-		"typecheck": "tsc --noEmit",
-		"prepare": "lefthook install"
-	},
-	"keywords": [
-		"tui",
-		"google-chat",
-		"terminal",
-		"ink",
-		"react"
-	],
-	"author": "",
-	"license": "MIT",
-	"dependencies": {
-		"ink": "7.1.1",
-		"react": "19.2.8"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "2.5.10",
-		"@types/bun": "1.4.0",
-		"@types/node": "26.2.0",
-		"@types/react": "19.2.18",
-		"ink-testing-library": "4.0.0",
-		"lefthook": "2.1.10",
-		"typescript": "7.0.2"
-	}
+  "name": "google-workspace-tui",
+  "version": "0.1.0",
+  "description": "Google Chat TUI client built with TypeScript and Ink",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/index.tsx",
+    "build": "bun build src/index.tsx --target=node --outfile=dist/index.js --packages=external",
+    "start": "bun run dist/index.js",
+    "test": "bun test",
+    "lint": "biome lint .",
+    "format": "biome format --write .",
+    "check": "biome check --write .",
+    "typecheck": "tsc --noEmit",
+    "prepare": "lefthook install"
+  },
+  "keywords": [
+    "tui",
+    "google-chat",
+    "terminal",
+    "ink",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ink": "7.1.1",
+    "react": "19.2.8"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.10",
+    "@types/bun": "1.4.0",
+    "@types/node": "26.2.0",
+    "@types/react": "19.2.18",
+    "ink-testing-library": "4.0.0",
+    "lefthook": "2.1.10",
+    "typescript": "7.0.2"
+  }
 }

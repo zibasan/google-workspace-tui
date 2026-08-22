@@ -1,4 +1,4 @@
-import { render } from "ink";
-import { App } from "./components/App.js";
+import { render } from "ink"
+import { App } from "./components/App.js"
 
-render(<App />, { alternateScreen: true });
+render(<App />, { alternateScreen: true })
